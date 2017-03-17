@@ -79,7 +79,7 @@ int main ()
     for (i = 0 ; i < NUM_LEDS ; ++i)
       softPwmWrite (ledMap [i], values [i]) ;
 
-    delay (50) ;
+    delay (207) ;
 
     i = values [0] ;
     for (j = 0 ; j < NUM_LEDS - 1 ; ++j)
